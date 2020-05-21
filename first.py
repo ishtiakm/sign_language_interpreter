@@ -51,9 +51,5 @@ while True:
         break
     i=i+1
 
-####
-
-#predictions = knn.predict([[270,227,264,250,180,50,1000,500,500,1000,1000]])
-#predictions = knn.predict([[330,260,270,290,230,490,990,530,495,515,1050]])
 predictions = knn.predict([c])
 print(predictions)
